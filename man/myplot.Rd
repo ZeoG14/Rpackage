@@ -2,24 +2,21 @@
 % Please edit documentation in R/myplot.R
 \name{myplot}
 \alias{myplot}
-\title{Title}
+\title{A function for plotting a quadratic}
 \usage{
-myplot(x, df)
+myplot(x)
 }
 \arguments{
-\item{x}{a number}
-
-\item{df}{a data frame}
+\item{x}{The diameter}
 }
 \value{
-plot
+Response ie estimate height
 }
 \description{
-Title
+A function for plotting a quadratic
 }
 \examples{
+\dontrun{quad.lm <- lm(y~x, data.df);
+myplot(x = 15, spruce.df)}
 
-x = a num
-df = spruce.df
-myplot(x, spruce.df)
 }
