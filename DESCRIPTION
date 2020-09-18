@@ -1,0 +1,11 @@
+Package: Rpackage
+Type: Package
+Title: Introductory Package
+Version: 0.1.0
+Author: Eliseo Garcia
+Maintainer: Eliseo Garcia <eliseo.garcia-1@ou.edu>
+Description: This is an introductory package
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
