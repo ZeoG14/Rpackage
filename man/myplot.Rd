@@ -4,7 +4,7 @@
 \alias{myplot}
 \title{Title}
 \usage{
-myplot(x, df)
+myplot(x, lm)
 }
 \arguments{
 \item{x}{df}
@@ -16,5 +16,5 @@ plot
 Title
 }
 \examples{
-df = spruce.df ; myplot(x, spruce.df)
+lm = spruce.lm ; myplot(x, spruce.lm)
 }
