@@ -3,19 +3,19 @@
 #'
 #' @param x The diameter
 #'
-#' @return Response ie estimate hieght
+#' @return Response ie estimate height
 #'
 #'
 #' @export
 #'
 #' @examples
 #' \dontrun{quad.lm <- lm(y~x, data.df);
-#' myplot(x = 15)}
+#' myplot(x = 15, spruce.df)}
 #'
-
 myplot = function(x) {
 
-  quad.lm$coef[1] + quad.lm$coef[2] * x + quad.lm$coef[3] * x ^ 2
+
+  quad.lm[1] + quad.lm$coef[2] * x + quad.lm$coef[3] * x ^ 2
 
 }
 
