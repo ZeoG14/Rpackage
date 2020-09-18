@@ -1,23 +1,21 @@
 
-#' Title
+#' @title A function for plotting a quadratic
 #'
-#' @param x a number
-#' @param lm a linear model
+#' @param x The diameter
 #'
-#' @return plot
+#' @return Response ie estimate hieght
 #'
 #'
 #' @export
 #'
 #' @examples
+#' \dontrun{quad.lm <- lm(y~x, data.df);
+#' myplot(x = 15)}
 #'
-#' x = a num
-#' lm = spruce.lm
-#' myplot(x, spruce.lm)
 
-myplot = function(x, lm) {
+myplot = function(x) {
 
-  lm$coef[1] + lm$coef[2] * x + lm$coef[3] * x ^ 2
+  quad.lm$coef[1] + quad.lm$coef[2] * x + quad.lm$coef[3] * x ^ 2
 
 }
 

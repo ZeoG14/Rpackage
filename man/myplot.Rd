@@ -4,10 +4,12 @@
 \alias{myplot}
 \title{Title}
 \usage{
-myplot(x, lm)
+myplot(x, df)
 }
 \arguments{
-\item{lm}{}
+\item{x}{a number}
+
+\item{df}{a data frame}
 }
 \value{
 plot
@@ -16,5 +18,8 @@ plot
 Title
 }
 \examples{
-lm = spruce.lm ; myplot(x, spruce.lm)
+
+x = a num
+df = spruce.df
+myplot(x, spruce.df)
 }
