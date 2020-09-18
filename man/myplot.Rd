@@ -7,7 +7,7 @@
 myplot(x, lm)
 }
 \arguments{
-\item{x}{df}
+\item{lm}{}
 }
 \value{
 plot
