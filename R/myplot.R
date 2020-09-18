@@ -1,7 +1,8 @@
 
 #' Title
 #'
-#' @param x df
+#' @param x
+#' @param lm
 #'
 #' @return plot
 #'
@@ -9,10 +10,10 @@
 #' @export
 #'
 #' @examples
-#' df = spruce.df ; myplot(x, spruce.df)
+#' lm = spruce.lm ; myplot(x, spruce.lm)
 
-myplot = function(x, df) {
-  plot <- df$coef[1] + df$coef[2] * x + df$coef[3] * x ^ 2
+myplot = function(x, lm) {
+  plot <- lm$coef[1] + lm$coef[2] * x + lm$coef[3] * x ^ 2
   return(plot)
 }
 
