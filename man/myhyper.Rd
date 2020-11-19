@@ -2,7 +2,7 @@
 % Please edit documentation in R/myhyper.R
 \name{myhyper}
 \alias{myhyper}
-\title{myhyper}
+\title{HYPERGEOMETRIC SIMULATION}
 \usage{
 myhyper(iter = 100, N = 20, r = 12, n = 5)
 }
@@ -16,10 +16,10 @@ myhyper(iter = 100, N = 20, r = 12, n = 5)
 \item{n}{Sample size}
 }
 \value{
-A barplot
+Outputs a barplot with the hypergeometric simulation and a table with the number of successes
 }
 \description{
-myhyper
+HYPERGEOMETRIC SIMULATION
 }
 \examples{
 mhyper(inter=1000,N=25,r=15,n=10)

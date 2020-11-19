@@ -2,7 +2,7 @@
 % Please edit documentation in R/mycltp.R
 \name{mycltp}
 \alias{mycltp}
-\title{@title Central Limit Theorem Poisson}
+\title{Central Limit Theorem Poisson}
 \usage{
 mycltp(n, iter, lambda = 10, ...)
 }
@@ -16,10 +16,10 @@ mycltp(n, iter, lambda = 10, ...)
 \item{...}{}
 }
 \value{
-3 plots
+Outputs A Histogram of Sample Means, Barplot of sampled y, and a another plot with the Probability function of Poisson
 }
 \description{
-@title Central Limit Theorem Poisson
+Central Limit Theorem Poisson
 }
 \examples{
 mycltp(n,inter=10000, lambda=10)

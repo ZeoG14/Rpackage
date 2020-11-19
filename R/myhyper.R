@@ -1,11 +1,11 @@
-#' @title myhyper
+#' @title HYPERGEOMETRIC SIMULATION
 #'
 #' @param iter Number of iterations
 #' @param N   Size
 #' @param r   1's occurences
 #' @param n   Sample size
 #'
-#' @return A barplot
+#' @return Outputs a barplot with the hypergeometric simulation and a table with the number of successes
 #' @export
 #'
 #' @examples mhyper(inter=1000,N=25,r=15,n=10)

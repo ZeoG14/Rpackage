@@ -4,10 +4,9 @@
 #' @param x     sample
 #' @param fun   mean/median
 #' @param alpha 0.05 default
-#' @param cx cx value
-#' @param ...
+#' @param ... additional parameters
 #'
-#' @return graph
+#' @return A graph that plots the sample (x) and also displays the confidence intervalsSS
 #' @export
 #'
 #' @examples myboot(iter=1000, x, fun="median", alpha = 0.01, cx=1.5)

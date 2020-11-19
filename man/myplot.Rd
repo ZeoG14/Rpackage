@@ -4,10 +4,12 @@
 \alias{myplot}
 \title{My Plot}
 \usage{
-myplot(x)
+myplot(x, df)
 }
 \arguments{
 \item{x}{The diameter}
+
+\item{df}{Dataframe to create the plot from}
 }
 \value{
 Response ie estimate height

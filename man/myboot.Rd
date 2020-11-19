@@ -15,12 +15,10 @@ myboot(iter = 10000, x, fun = "mean", alpha = 0.05, cx = 1.5, ...)
 
 \item{alpha}{0.05 default}
 
-\item{cx}{cx value}
-
-\item{...}{}
+\item{...}{additional parameters}
 }
 \value{
-graph
+A graph that plots the sample (x) and also displays the confidence intervalsSS
 }
 \description{
 myboot

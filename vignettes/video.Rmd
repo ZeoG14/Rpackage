@@ -1,0 +1,40 @@
+---
+title: "Video"
+author: "Eliseo Garcia"
+date: "11/18/2020"
+output: html_document
+---
+
+
+
+```{r first}
+Rpackage::myhyper(iter = 100, N = 20, r = 12, n = 5)
+
+```
+
+
+
+```{r second}
+Rpackage::mycltp(n = 1000,iter=10000, lambda=10)
+
+```
+
+
+```{r third}
+set.seed(23)
+x = rnorm(30,mean=10,sd=12)
+Rpackage::myci(x)
+
+```
+
+
+```{r forth}
+x = rnorm(45,mean=30,sd=13)
+Rpackage::myboot(iter = 10000, x, fun = "mean", alpha = 0.05)
+```
+
+
+```{r}
+Rpackage::myncurve(mu = 10,sigma = 10, a = 10)
+```
+

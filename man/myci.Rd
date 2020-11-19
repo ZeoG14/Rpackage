@@ -7,10 +7,10 @@
 myci(x)
 }
 \arguments{
-\item{x}{Single sample}
+\item{x}{sample for which the confidence interval will be created}
 }
 \value{
-a 95% confidence interval
+Outputs a table with a 95% confidence interval
 }
 \description{
 My Confidence Interval

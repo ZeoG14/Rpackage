@@ -1,11 +1,11 @@
-#'  @title Central Limit Theorem Poisson
+#' @title Central Limit Theorem Poisson
 #'
 #' @param n = row
 #' @param iter = number of iterations
 #' @param lambda = vector of means
 #' @param ...
 #'
-#' @return 3 plots
+#' @return Outputs A Histogram of Sample Means, Barplot of sampled y, and a another plot with the Probability function of Poisson
 #' @export
 #'
 #' @examples mycltp(n,inter=10000, lambda=10)
