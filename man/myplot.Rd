@@ -2,7 +2,7 @@
 % Please edit documentation in R/myplot.R
 \name{myplot}
 \alias{myplot}
-\title{A function for plotting a quadratic}
+\title{My Plot}
 \usage{
 myplot(x)
 }
@@ -13,7 +13,7 @@ myplot(x)
 Response ie estimate height
 }
 \description{
-A function for plotting a quadratic
+My Plot
 }
 \examples{
 \dontrun{quad.lm <- lm(y~x, data.df);

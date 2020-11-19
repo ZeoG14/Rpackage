@@ -1,5 +1,4 @@
-
-#' @title A function for plotting a quadratic
+#' @title My Plot
 #'
 #' @param x The diameter
 #'
