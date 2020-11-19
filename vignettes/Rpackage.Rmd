@@ -1,0 +1,45 @@
+---
+title: "Rpackage"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Rpackage}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(Rpackage)
+```
+
+
+## Introduction
+
+This is a package that was constructed during the Fall 2020 semester. All of the function added come from the labs. 
+
+
+## Use package in Rmd 
+
+In order to use any of the functions you will first need to call the package in the rmd file 
+```{r, eval = FALSE}
+# First using the library function
+library(Rpackage)
+```
+
+
+## Calling a function
+
+After attaching your package to the rmd file, to call any function from the package use the following format
+```{r, eval = FALSE}
+# Attaching as before
+library(Rpackage)
+# Function format to call any function 
+Rpackage::myboot(iter,x,fun,alpha)
+```
+

@@ -4,7 +4,7 @@
 #' @param x     sample
 #' @param fun   mean/median
 #' @param alpha 0.05 default
-#' @param cx
+#' @param cx cx value
 #' @param ...
 #'
 #' @return graph

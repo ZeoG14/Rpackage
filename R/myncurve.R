@@ -1,8 +1,7 @@
 #' @title Myncurve
-#'
-#' @param mu
-#' @param sigma
-#' @param a
+#' @param mu mu value
+#' @param sigma sigma value
+#' @param a value
 #'
 #' @return Plot of the Normal Curve
 #' @export

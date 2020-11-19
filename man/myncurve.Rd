@@ -7,7 +7,11 @@
 myncurve(mu, sigma, a)
 }
 \arguments{
-\item{a}{}
+\item{mu}{mu value}
+
+\item{sigma}{sigma value}
+
+\item{a}{value}
 }
 \value{
 Plot of the Normal Curve

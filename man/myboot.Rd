@@ -15,6 +15,8 @@ myboot(iter = 10000, x, fun = "mean", alpha = 0.05, cx = 1.5, ...)
 
 \item{alpha}{0.05 default}
 
+\item{cx}{cx value}
+
 \item{...}{}
 }
 \value{
